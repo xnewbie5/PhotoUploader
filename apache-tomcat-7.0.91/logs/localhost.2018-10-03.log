@@ -1,0 +1,1580 @@
+Oct 03, 2018 8:42:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Oct 03, 2018 8:42:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Oct 03, 2018 8:42:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7ed844c6')
+Oct 03, 2018 8:42:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@291c0377')
+Oct 03, 2018 8:50:15 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [java.lang.ClassFormatError: Truncated class file] with root cause
+java.lang.ClassFormatError: Truncated class file
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1009)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:545)
+	at java.base/java.net.URLClassLoader.access$100(URLClassLoader.java:83)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:453)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:447)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:446)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:157)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:186)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 8:50:25 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [java.lang.ClassFormatError: Truncated class file] with root cause
+java.lang.ClassFormatError: Truncated class file
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1009)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:545)
+	at java.base/java.net.URLClassLoader.access$100(URLClassLoader.java:83)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:453)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:447)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:446)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:157)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:186)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 8:56:40 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 8:57:25 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 5 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+2: <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% String funcID = request.getParameter(“funcID”);
+6: 	String name = request.getParameter(“name”);
+7: %>
+8: 
+
+
+An error occurred at line: 5 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+2: <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% String funcID = request.getParameter(“funcID”);
+6: 	String name = request.getParameter(“name”);
+7: %>
+8: 
+
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% String funcID = request.getParameter(“funcID”);
+6: 	String name = request.getParameter(“name”);
+7: %>
+8: 
+9: <html>
+
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% String funcID = request.getParameter(“funcID”);
+6: 	String name = request.getParameter(“name”);
+7: %>
+8: 
+9: <html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 5 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+2: <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% String funcID = request.getParameter(“funcID”);
+6: 	String name = request.getParameter(“name”);
+7: %>
+8: 
+
+
+An error occurred at line: 5 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+2: <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% String funcID = request.getParameter(“funcID”);
+6: 	String name = request.getParameter(“name”);
+7: %>
+8: 
+
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% String funcID = request.getParameter(“funcID”);
+6: 	String name = request.getParameter(“name”);
+7: %>
+8: 
+9: <html>
+
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% String funcID = request.getParameter(“funcID”);
+6: 	String name = request.getParameter(“name”);
+7: %>
+8: 
+9: <html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 8:57:58 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+
+
+An error occurred at line: 6 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+3: <%@ page import="java.util.*"%>
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+4: <%@ page import="java.io.*" %>
+5: <% 
+6: 	String funcID = request.getParameter(“funcID”);
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 8:58:30 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+4: <%@ page import="java.io.*" %>
+5: <%
+6: 	String funcID = request.getParameter("funcID");
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+4: <%@ page import="java.io.*" %>
+5: <%
+6: 	String funcID = request.getParameter("funcID");
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+The method getParameter(String) in the type ServletRequest is not applicable for the arguments ()
+4: <%@ page import="java.io.*" %>
+5: <%
+6: 	String funcID = request.getParameter("funcID");
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+An error occurred at line: 7 in the jsp file: /index.jsp
+Syntax error on tokens, delete these tokens
+4: <%@ page import="java.io.*" %>
+5: <%
+6: 	String funcID = request.getParameter("funcID");
+7: 	String name = request.getParameter(“name”);
+8: %>
+9: 
+10: <html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 10:20:04 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL." />
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 10:20:28 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL."
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 10:20:54 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url") %> alt="Unable to load the image from URL.">
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 10:21:46 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 10:22:43 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src = <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Oct 03, 2018 10:22:54 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/gallery] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error on token "=", @ expected
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+out.write cannot be resolved to a type
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+The left-hand side of an assignment must be a variable
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+An error occurred at line: 11 in the jsp file: /results.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+8:         <br>
+9:         <h3>Here's your image:</h3>
+10:         <br>
+11:         <img src= <% = request.getParameter("url")%> >
+12:         <br>
+13:         Title: <%= request.getParameter("title")%>
+14:         <br>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:536)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:378)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
